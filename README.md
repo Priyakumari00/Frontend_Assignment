@@ -79,8 +79,10 @@ root/
 
 ```
 ```bash
-2. Backend Setup
-   cd backend
+3. Frontend Setup
+   cd frontend
    npm install
+   npm start
+
 ```
 

@@ -54,3 +54,10 @@ root/
 │
 ├── README.md
 └── package.json
+```
+## ⚙️ Installation & Setup
+```bash
+1. Clone the Repo
+   git clone https://github.com/Priyakumari00/Frontend_Assignment.git
+   cd Frontend_Assignment
+

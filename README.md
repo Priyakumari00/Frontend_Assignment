@@ -2,8 +2,8 @@
 
 A full-stack web application built with **React.js + Node.js/Express + MongoDB** that demonstrates **authentication, dashboard management, and CRUD operations**.  
 
-🔗 **Live Demo**: [Deployed App]([https://your-deployment-link.com](https://frontend-assignment-kisl0bls6-priyas-projects-5826c70e.vercel.app/login))  
-📂 **GitHub Repo**: [GitHub Repository](https://github.com/Priyakumari00/Frontend_Assignment) 
+🔗 **Live Demo**: [Deployed App](https://frontend-assignment-kisl0bls6-priyas-projects-5826c70e.vercel.app/login)  
+📂 **GitHub Repo**: [GitHub Repository](https://github.com/Priyakumari00/Frontend_Assignment)  
 
 ---
 

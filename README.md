@@ -60,4 +60,10 @@ root/
 1. Clone the Repo
    git clone https://github.com/Priyakumari00/Frontend_Assignment.git
    cd Frontend_Assignment
+```
+```bash
 2. Backend Setup
+   cd backend
+   npm install
+```
+

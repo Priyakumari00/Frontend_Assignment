@@ -66,4 +66,21 @@ root/
    cd backend
    npm install
 ```
+```bash
+   Create a .env file inside backend/:
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+
+```
+```bash
+   Run the server:
+   npm start
+
+```
+```bash
+2. Backend Setup
+   cd backend
+   npm install
+```
 

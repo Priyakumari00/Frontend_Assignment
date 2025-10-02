@@ -11,16 +11,28 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
+
+
+const CLIENT_URLS = process.env.CLIENT_URLS ? process.env.CLIENT_URLS.split(',') : ['http://localhost:5173'];
+
 app.use(cors({
-  origin: CLIENT_URL,
+  origin: function(origin, callback) {
+    
+    if (!origin || CLIENT_URLS.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
+
 
 app.use('/api/auth', authRoutes);
 app.use('/api/notes', notesRoutes);
 
 const PORT = process.env.PORT || 5000;
+
 
 mongoose.connect(process.env.MONGO_URI, { })
   .then(() => {
